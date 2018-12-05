@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FrameworkUtilities" duration-ms="93" started-at="2018-12-04T19:47:05Z" finished-at="2018-12-04T19:47:05Z">
+    <groups>
+    </groups>
+    <test name="Login to Google and Validate" duration-ms="46" started-at="2018-12-04T19:47:05Z" finished-at="2018-12-04T19:47:05Z">
+      <class name="TestClasses.ValidateHomePage">
+        <test-method status="PASS" signature="validatePageFields(java.util.Map)[pri:0, instance:TestClasses.ValidateHomePage@16610890]" name="validatePageFields" duration-ms="0" started-at="2018-12-04T19:47:05Z" data-provider="getParameters" finished-at="2018-12-04T19:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=2, LastName=Kohli, InternalStepID=2, FirstName=Virat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageFields -->
+      </class> <!-- TestClasses.ValidateHomePage -->
+      <class name="TestClasses.LogInToGoogle">
+        <test-method status="PASS" signature="loginGoogle(java.util.Map)[pri:0, instance:TestClasses.LogInToGoogle@3bf9ce3e]" name="loginGoogle" duration-ms="15" started-at="2018-12-04T19:47:05Z" data-provider="getParameters" finished-at="2018-12-04T19:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=3, LastName=Bacchan, InternalStepID=3, FirstName=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+      </class> <!-- TestClasses.LogInToGoogle -->
+    </test> <!-- Login to Google and Validate -->
+    <test name="Call same component multiple times" duration-ms="0" started-at="2018-12-04T19:47:05Z" finished-at="2018-12-04T19:47:05Z">
+      <class name="TestClasses.ValidateHomePage">
+        <test-method status="PASS" signature="validatePageFields(java.util.Map)[pri:0, instance:TestClasses.ValidateHomePage@4738a206]" name="validatePageFields" duration-ms="0" started-at="2018-12-04T19:47:05Z" data-provider="getParameters" finished-at="2018-12-04T19:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=3, LastName=Bacchan, InternalStepID=5, FirstName=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageFields -->
+      </class> <!-- TestClasses.ValidateHomePage -->
+      <class name="TestClasses.LogInToGoogle">
+        <test-method status="PASS" signature="loginGoogle(java.util.Map)[pri:0, instance:TestClasses.LogInToGoogle@614ca7df]" name="loginGoogle" duration-ms="0" started-at="2018-12-04T19:47:05Z" data-provider="getParameters" finished-at="2018-12-04T19:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=4, LastName=Chopra, InternalStepID=3, FirstName=Priyanka}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+      </class> <!-- TestClasses.LogInToGoogle -->
+    </test> <!-- Call same component multiple times -->
+  </suite> <!-- FrameworkUtilities -->
+</testng-results>

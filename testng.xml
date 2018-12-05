@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+	<listeners>
+		<listener class-name="Listners.MyExecutionListener"/>
+	</listeners>	
+		<test thread-count="1" name="Test-1">
+			<classes>
+				<class name="TestClasses.LogInToGoogle">
+
+					<parameter name="userName" value="Deep" />
+					<parameter name="password" value="Deep" />
+					<methods>
+						<include name="loginGoogle">
+							<parameter name="data-id" value="1" />
+						</include>
+						<exclude name="logoutFromGoogle" />
+					</methods>
+				</class>
+			</classes>
+		</test> <!-- Test -->
+
+		<test thread-count="1" name="Test-2">
+			<classes>
+				<class name="TestClasses.ValidateHomePage">
+
+					<parameter name="userName" value="Poo" />
+					<parameter name="password" value="Poo" />
+					<methods>
+						<include name="validatePageFields">
+							<parameter name="data-id" value="10" />
+						</include>
+						
+					</methods>
+				</class>
+			</classes>
+		</test>
+	
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameworkUtilities]">
+  <listeners>
+    <listener class-name="Listners.MyExecutionListener"/>
+  </listeners>
+  <test thread-count="5" name="Login to Google and Validate(failed)">
+    <classes>
+      <class name="TestClasses.LogInToGoogle">
+        <parameter name="ID" value="2"/>
+        <parameter name="LastName" value="Mehta"/>
+        <parameter name="InternalStepID" value="3"/>
+        <parameter name="FirstName" value="Poo"/>
+        <methods>
+          <include name="loginGoogle"/>
+        </methods>
+      </class> <!-- TestClasses.LogInToGoogle -->
+      <class name="TestClasses.ValidateHomePage">
+        <parameter name="ID" value="2"/>
+        <parameter name="LastName" value="Mehta"/>
+        <parameter name="InternalStepID" value="3"/>
+        <parameter name="FirstName" value="Poo"/>
+        <methods>
+          <include name="validatePageFields"/>
+        </methods>
+      </class> <!-- TestClasses.ValidateHomePage -->
+    </classes>
+  </test> <!-- Login to Google and Validate(failed) -->
+</suite> <!-- Failed suite [FrameworkUtilities] -->
