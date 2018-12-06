@@ -22,7 +22,7 @@ public class CreateTestNGXMLUsingTestNGClasses {
 		
 		XmlTest xmlTest = new XmlTest(xmlSuite);
 		xmlTest.setName("Test-1");
-		xmlTest.setPreserveOrder(true);
+		xmlTest.setPreserveOrder("true");
 		//xmlTest.setParameters(params);
 		
 		
