@@ -1,0 +1,12 @@
+2020-05-31 22:43:14,445 FATAL T.L.LogInToGoogle [main] FATAL logging
+2020-05-31 22:43:14,445 ERROR T.L.LogInToGoogle [main] ERROR logging
+2020-05-31 22:43:14,445 WARN T.L.LogInToGoogle [main] EARN logging
+2020-05-31 22:43:14,445 INFO T.L.LogInToGoogle [main] INFO logging
+2020-05-31 22:45:37,182 FATAL Te.Lo.LogInToGoogle [main] FATAL logging
+2020-05-31 22:45:37,182 ERROR Te.Lo.LogInToGoogle [main] ERROR logging
+2020-05-31 22:45:37,182 WARN Te.Lo.LogInToGoogle [main] EARN logging
+2020-05-31 22:45:37,182 INFO Te.Lo.LogInToGoogle [main] INFO logging
+2020-05-31 22:50:00,540 Login.LogInToGoogle [main] FATAL logging
+2020-05-31 22:50:00,540 Login.LogInToGoogle [main] ERROR logging
+2020-05-31 22:50:00,556 Login.LogInToGoogle [main] EARN logging
+2020-05-31 22:50:00,556 Login.LogInToGoogle [main] INFO logging

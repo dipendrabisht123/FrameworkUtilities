@@ -1,0 +1,12 @@
+2020-06-11 22:33:13,411 FATAL TestClasses.LogInToGoogle [main] FATAL logging
+2020-06-11 22:33:13,472 ERROR TestClasses.LogInToGoogle [main] ERROR logging
+2020-06-11 22:33:13,473 WARN TestClasses.LogInToGoogle [main] EARN logging
+2020-06-11 22:33:13,473 INFO TestClasses.LogInToGoogle [main] INFO logging
+2020-06-11 22:38:21,311 FATAL TestClasses.LogInToGoogle [main] FATAL logging
+2020-06-11 22:38:21,331 ERROR TestClasses.LogInToGoogle [main] ERROR logging
+2020-06-11 22:38:21,331 WARN TestClasses.LogInToGoogle [main] EARN logging
+2020-06-11 22:38:21,332 INFO TestClasses.LogInToGoogle [main] INFO logging
+2020-06-11 22:40:21,138 FATAL TestClasses.LogInToGoogle [main] FATAL logging
+2020-06-11 22:40:21,145 ERROR TestClasses.LogInToGoogle [main] ERROR logging
+2020-06-11 22:40:21,145 WARN TestClasses.LogInToGoogle [main] EARN logging
+2020-06-11 22:40:21,146 INFO TestClasses.LogInToGoogle [main] INFO logging

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Properties>
+		<Property name="basePath">./Logs</Property>
+	</Properties>
+	
+	<Appenders>
+		<RollingFile name="RollingFile" fileName="${basePath}/appLogs.log"
+			filePattern="${basePath}/appLogs-%d{yyyy-MM-dd}.log">
+<!-- 			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n" /> -->
+			<PatternLayout pattern="%d %p %c{2} [%t] %m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="100 KB" />
+			</Policies>
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %c{3} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+	</Loggers>
+</Configuration>
