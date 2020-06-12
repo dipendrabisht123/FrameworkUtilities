@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login to Google and Validate"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.390">
+  <properties />
+  
+  
+            <testcase name="loginGoogle" time="24.390" classname="TestClasses.LogInToGoogle" />
+      
+</testsuite>
