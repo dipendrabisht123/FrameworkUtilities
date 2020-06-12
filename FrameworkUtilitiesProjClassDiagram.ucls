@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Base.TestBase" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Base/TestBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="639" y="288"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Core.Main" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Core/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="654" y="73"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Listners.MyExecutionListener" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Listners/MyExecutionListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1185" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Listners.MySuitListener" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Listners/MySuitListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1024" y="222"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="PageClasses.Utilities.ExcelUtilities.ReadExcel" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/PageClasses/Utilities/ExcelUtilities/ReadExcel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="259" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="PageClasses.Utilities.CreateTestNGXML" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/PageClasses/Utilities/CreateTestNGXML.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="303" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Pages.LoginPage" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Pages/LoginPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="87" width="130" x="890" y="24"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="TestClasses.LogInToGoogle" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/TestClasses/LogInToGoogle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="522" y="432"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="TestClasses.ValidateHomePage" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/TestClasses/ValidateHomePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="185" x="632" y="383"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="org.testng.ISuiteListener" project="FrameworkUtilities" 
+    file="C:/Users/Poonam/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="868" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="Listners.MyTestListener" project="FrameworkUtilities" 
+    file="/FrameworkUtilities/src/main/java/Listners/MyTestListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="139" width="130" x="1069" y="308"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="org.testng.ITestListener" project="FrameworkUtilities" 
+    file="C:/Users/Poonam/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="84" width="178" x="833" y="292"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="16">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
