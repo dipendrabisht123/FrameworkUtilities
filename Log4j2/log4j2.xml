@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
-<Properties>
+	<Properties>	
 		<Property name="basePath">./Logs</Property>
 	</Properties>
 	
 	<Appenders>
 		<RollingFile name="RollingFile" fileName="${basePath}/appLogs.log"
 			filePattern="${basePath}/appLogs-%d{yyyy-MM-dd}.log">
-<!-- 			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n" /> -->
+			<!-- <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n" /> -->
 			<PatternLayout pattern="%d %p %c{2} [%t] %m%n" />
 			<Policies>
 				<TimeBasedTriggeringPolicy interval="1"
