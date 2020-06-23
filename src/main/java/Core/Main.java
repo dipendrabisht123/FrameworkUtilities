@@ -7,7 +7,7 @@ import PageClasses.Utilities.ExcelUtilities.ReadExcel;
 
 public class Main {
 	
-	public static String testDataFileName = "./TestData.xlsx";
+	public static String testDataFileName = System.getProperty("user.dir")+"\\TestData.xlsx";
 	public static void main(String[] args) throws Exception {
 		
 		final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
